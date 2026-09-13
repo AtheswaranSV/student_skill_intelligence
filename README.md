@@ -1,6 +1,6 @@
 # Student Skill Intelligence
 
-A focused final-year ML project: a student enters GitHub and LeetCode profile links, a resume link/text/PDF, and a target career domain, or uploads a JD. The system combines evidence from every supplied source, builds features, estimates role fit, identifies skill gaps, and uses a local Ollama LLM only to explain the structured result.
+A focused ML project: a student enters GitHub and LeetCode profile links, a resume link/text/PDF, and a target career domain, or uploads a JD. The system combines evidence from every supplied source, builds features, estimates role fit, identifies skill gaps, and uses a local Ollama LLM only to explain the structured result.
 
 ## Stack
 - Frontend: Next.js 15 + TypeScript + Tailwind
