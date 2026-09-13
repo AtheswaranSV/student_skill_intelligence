@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     # Gemini
-    gemini_api_key: str = ""
+    gemini_api_key: str = "AQ.Ab8RN6KP39NbjIiVCFEY9WvBshn9AAuYMLzpKF200VW1RCxljg"
 
     gemini_model: str = "gemini-3-flash-preview"
 
