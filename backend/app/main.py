@@ -10,7 +10,7 @@ from .jd import parse_pdf,parse_text
 from .resume import analyze as resume_analyze
 from .careers import CAREERS
 app=FastAPI(title="Student Skill Intelligence",version="1.0")
-app.add_middleware(CORSMiddleware,allow_origins=["http://localhost:3000","http://127.0.0.1:3000"],allow_credentials=True,allow_methods=["*"],allow_headers=["*"])
+app.add_middleware(CORSMiddleware,allow_origins=["http://localhost:3000","http://127.0.0.1:3000","https://skifrontend.vercel.app"],allow_credentials=True,allow_methods=["*"],allow_headers=["*"])
 class CareerRequest(BaseModel): github_url:str=""; leetcode_url:str=""; career:str; resume_url:str=""; resume_text:str=""
 class JDTextRequest(BaseModel): github_url:str=""; leetcode_url:str=""; jd_text:str; title:str="JD Fit"; resume_url:str=""; resume_text:str=""
 class ChatRequest(BaseModel): result:dict[str,Any]; message:str; history:list[dict[str,str]]=[]
