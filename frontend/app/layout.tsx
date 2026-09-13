@@ -1,0 +1,1 @@
+import './globals.css'; export const metadata={title:'Student Skill Intelligence',description:'Student career readiness and job description fit analyzer'}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}

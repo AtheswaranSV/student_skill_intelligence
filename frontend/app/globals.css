@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;body{background:#070b14;color:#eaf0ff} .glass{background:rgba(17,24,39,.72);border:1px solid rgba(148,163,184,.15);backdrop-filter:blur(14px)} input,select,textarea{background:#0b1220!important;border:1px solid #263349!important}

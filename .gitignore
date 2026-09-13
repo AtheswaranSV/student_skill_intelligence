@@ -1,0 +1,16 @@
+# Dependencies and local environments
+node_modules/
+.venv/
+
+# Next.js generated output
+.next/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.local.example
