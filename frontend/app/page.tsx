@@ -1,7 +1,7 @@
 "use client";
 import {useEffect,useState} from 'react';
 import {Github,Code2,BriefcaseBusiness,Sparkles,Upload,Target,FileText,MessageCircle} from 'lucide-react';
-const API=process.env.NEXT_PUBLIC_API_URL||'https://skibackend.vercel.app/api';
+const API='https://skibackend.vercel.app/api';
 type Analysis={career:string;readiness_score:number;readiness:{label:string};evidence_confidence:string;components:Record<string,number|null>;matched_required:string[];missing_required:string[];priority_gaps?:string[];ai_explanation:string;ai_conversation?:string;domain_guidance?:string;github:{available:boolean};leetcode:{available:boolean};resume:{available:boolean};core_skills?:{matched:string[];missing:string[]};advanced_skills?:{matched:string[];missing:string[]};project_evidence?:{name:string;url?:string;project_fit_score:number}[]};
 type ChatMessage={role:'user'|'assistant';content:string};
 export default function Home(){
